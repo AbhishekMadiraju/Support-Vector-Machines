@@ -1,0 +1,12 @@
+Below are details of datasets whose number of instance differ
+considerably from the UCI website descriptions.
+
+SUSY: First 5000 instances from UCI file of 5 million
+
+Ozone: Removed all instances with even one missing value
+
+Insurance:
+
+Isolet: We consider only isolet5 and exclude isolet1, 2, 3, and 4
+
+Smartphone:
