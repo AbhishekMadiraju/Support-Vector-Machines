@@ -3,6 +3,9 @@ from sklearn import svm
 def train(dataset):
     j = 0
     sum = 0
+    
+    ##Performed Cross Validation for better results. Did a 90 - 10 split.
+    
     while j < 10:
         print("Cross validating on file ",j)
         reqs = []
